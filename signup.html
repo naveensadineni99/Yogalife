@@ -32,7 +32,6 @@ button:hover {
   opacity:1;
 }
 
-
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
@@ -43,16 +42,21 @@ button:hover {
   width: 50%;
 }
 
-
 .container {
   padding: 16px;
 }
-
-
-
-
-
-
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #999999;
+  padding-top: 50px;
+}
 .modal-content {
   background-color: #fefefe;
   margin: 5% auto 15% auto; 
@@ -65,7 +69,6 @@ hr {
   margin-bottom: 25px;
 }
  
-
 .close {
   position: absolute;
   right: 35px;
