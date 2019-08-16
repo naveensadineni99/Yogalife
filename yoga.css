@@ -32,3 +32,127 @@ nav a{
     border-color: #CCCCCC;
     border-width: 3px;
 }
+nav a :link {
+    color: #3F2860;
+}
+nav a :visited{
+    color: #497777;
+}
+nav a :hover {
+    color: #A26100;
+    border: 3px inset #333333;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.studio{
+    font-style: italic;
+}
+footer{
+    background-color: #9BC1C2;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+}
+#wrapper
+{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F5F5F5;
+    min-width: 1200px;
+    max-width: 1480px;
+    
+}
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 170px;
+    padding-top: 1em;
+    
+}
+.floatleft {
+    margin-right: 4em;
+    float: left;
+    
+}
+.clear {
+    clear: both;
+}
+* {
+    box-sizing: border-box ;
+}
+header, nav, main, footer {
+    display: block;
+}
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
+
+
+
+audio {
+    
+    display: block;
+    margin: 1em;
+}
+@media only screen and (max-width:1024px)
+{
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #wrapper {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        padding-top: 1px;
+    }
+    nav{
+        float: none;
+        width: auto;
+        padding-left: 2em;
+        
+    }
+    nav a{
+        padding: 0.2em;
+        margin-left: 0.3em;
+        float: left;
+        width: 23%;
+    }
+    main {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        padding-left:1 em;
+        padding-right: 1em;
+        margin: 0;
+        font-size: 90%;
+        float: none;
+    }
+    #hero {
+        width: 100%;
+        height: auto;
+    }
+    h2,h3,p,dl {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    main ul {
+        margin-left: 2em;
+    }
+    .floatleft{
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+    .clear {
+        padding-left: 2em;
+    }
+}
