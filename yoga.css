@@ -28,9 +28,7 @@ nav a{
     font-weight: bold;
     padding: 1em;
     margin-bottom: 1em;
-    border-style: outset;
-    border-color: #CCCCCC;
-    border-width: 3px;
+   
 }
 nav a :link {
     color: #3F2860;

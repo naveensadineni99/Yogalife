@@ -2,6 +2,10 @@
 <html lang ="en">
 <head>
         <link rel="stylesheet" type="text/css" href="yoga.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <title>Path Of Light Yoga Studio :: classes</title>
     <meta charset="utf-8">
@@ -14,12 +18,24 @@
     <h1>Path Of Light Yoga Studio</h1>
     </header>
     <nav>
-    <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="classes.html">Classes</a></li>
-            <li><a href="schedule.html">Schedule</a></li>  
-            <li><a href="Contact.html">Contact</a></li>
+        <ul>
+            <li><a href="homepage.html"><button type="button" class="btn btn-primary"> Home</button></a></li>
+            <!-- <li><a href="classes.html">Classes</a></li> -->
+            <li>
+                    <div class="dropdown" style="padding-left:18px;">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Classes</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="GentleHathaYoga.html"> Gentle Hatha Yoga</a>
+                                <a class="dropdown-item" href="Vinyasayoga.html"> Vinyasa Yoga</a>
+                                <a class="dropdown-item" href="Restoritive Yoga.html"> Restorative Yoga</a>
+                            </div>
+                        </div>
+            </li>
+            <li><a href="schedule.html"><button class="btn btn-primary">Schedule</button></a></li>  
+            <li><a href="Contact.html"><button class="btn btn-primary">Contact</button> </a></li>
+	   
         </ul>
+        
     </nav>
     <main>
         <div id="hero" >
